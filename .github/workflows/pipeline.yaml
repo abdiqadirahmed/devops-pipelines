@@ -2,7 +2,7 @@ name: CI pipeline
 
 on:
   push:
-    ranches: [ main ]
+    branches: [ main ]
 
 jobs:
   build:
