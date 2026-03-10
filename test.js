@@ -1,3 +1,6 @@
-console.log('Starting tests.....'); 
-setTimeout(() => console.log('Waiting 3 seconds ....'), 3000);
-console.log('Test complete!');
+console.log("Starting tests...");
+
+setTimeout(() => {
+  console.log("Tests finished");
+  process.exit(0);
+}, 3000);
